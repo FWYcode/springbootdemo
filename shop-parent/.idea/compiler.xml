@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka_register8001" />
+        <module name="eureka_register8002" />
+        <module name="eureka_register8003" />
+        <module name="server_cosumer7001" />
+        <module name="server_producter9001" />
+        <module name="server_producter9002" />
+        <module name="server_producter9003" />
+        <module name="server_producter9004" />
+        <module name="server_producter9005" />
+        <module name="shop-comm" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka_register8001" target="1.5" />
+      <module name="eureka_register8002" target="1.5" />
+      <module name="eureka_register8003" target="1.5" />
+      <module name="server_cosumer7001" target="1.5" />
+      <module name="server_producter9001" target="1.5" />
+      <module name="server_producter9002" target="1.5" />
+      <module name="server_producter9003" target="1.5" />
+      <module name="server_producter9004" target="1.5" />
+      <module name="server_producter9005" target="1.5" />
+      <module name="shop-comm" target="1.7" />
+      <module name="shop-parent" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

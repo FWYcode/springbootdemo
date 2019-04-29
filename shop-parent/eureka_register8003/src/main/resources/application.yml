@@ -1,0 +1,17 @@
+server:
+  port: 8003
+  address: 192.168.109.131
+spring:
+  application:
+    name: register
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://192.168.109.129:8001/eureka/,http://192.168.109.135:8002/eureka/
+logging:
+  level:
+    com.it: debug

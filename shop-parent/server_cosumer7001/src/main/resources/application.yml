@@ -1,0 +1,12 @@
+server:
+  port: 7001
+spring:
+  application:
+    name: cline
+eureka:
+  client:
+    service-url:
+      defaultZone: http://node1:8001/eureka/,http://node2:8002/eureka/，http://node3:8003/eureka/
+logging:
+  level:
+    com.it: debug
